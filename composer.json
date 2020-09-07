@@ -1,0 +1,30 @@
+{
+    "name": "alphasms/gateway",
+    "description": "AlphaSMS gateway",
+    "keywords": [
+        "alpha-sms",
+        "AlphaSMS",
+        "sms",
+        "sms-gateway",
+        "composer-sms"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlphaSMS",
+            "homepage": "https://github.com/alphasms",
+            "email": "info@alphasms.ua"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "alphasms\\gateway\\" : "src"
+        }
+    }
+}
